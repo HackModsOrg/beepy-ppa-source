@@ -6,13 +6,13 @@
 	url = https://github.com/HackModsOrg/sharp-drm-driver
 [submodule "beepy-symbol-overlay-1.0/module"]
 	path = beepy-symbol-overlay-1.2/module
-	url = git@github.com:ardangelo/beepy-symbol-overlay.git
+	url = https://github.com/ardangelo/beepy-symbol-overlay
 [submodule "beepy-tmux-menus/module"]
 	path = beepy-tmux-menus-1.0/module
-	url = git@github.com:ardangelo/tmux-menus.git
+	url = https://github.com/ardangelo/tmux-menus
 [submodule "beepy-gomuks-1.0/module"]
 	path = beepy-gomuks-0.3/module
-	url = git@github.com:ardangelo/gomuks.git
+	url = https://github.com/ardangelo/gomuks
 [submodule "impala-wifi-1.0/module"]
 	path = impala-wifi-0.3/module
-	url = git@github.com:ardangelo/impala.git
+	url = https://github.com/ardangelo/impala
