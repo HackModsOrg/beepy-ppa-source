@@ -1,4 +1,16 @@
-Package sources for Beepy software
+# Package sources for Beepy/Blepis software
+
+How to compile the entirety of this repository yourself:
+
+```bash
+git clone --recursive https://github.com/HackModsOrg/beepy-ppa-source
+cd beepy-ppa-source
+./build.sh
+```
+
+-----------
+
+## Old instructions from ardangelo repo
 
 Run `dpkg-buildpackage -us -uc --host-arch armhf` in the package directory to generate a `deb` package
 
