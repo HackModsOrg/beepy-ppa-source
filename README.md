@@ -10,13 +10,15 @@ cd beepy-ppa-source
 
 -----------
 
-## Old instructions from ardangelo repo
+## Old instructions from [ardangelo repo](https://github.com/ardangelo/beepy-ppa-source/)
 
 Run `dpkg-buildpackage -us -uc --host-arch armhf` in the package directory to generate a `deb` package
 
 # Crosscompiling
 
+```bash
 sudo dpkg --add-architecture armhf
 sudo apt-get install build-essential crossbuild-essential-armhf
 cd <package_dir>
 sudo apt-get build-dep -aarmhf .
+```
