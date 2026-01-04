@@ -1,3 +1,11 @@
+beepy-kbd (2.12-1) bookworm; urgency=medium
+
+  * Removed hard dependency on sharp-drm and beepy-fw
+  * Removed a bunch of postrm and preinst (i.e. dphys-swapfile) hooks that might be suboptimal to force
+  * Temporarily commenting out the firmware version checks (until we package our firmware)
+
+ -- LinaLinn <blepis@0xlina.gay>  Sun, 04 Jan 2026 22:50:55 +0100
+
 beepy-kbd (2.11-4) bookworm; urgency=medium
 
   * Configurable touch threshold
