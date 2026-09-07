@@ -1,8 +1,9 @@
-# Package sources for Beepy/Blepis software
+# Package sources for Beepy/Blepis/Snowdive software
 
 How to compile the entirety of this repository yourself:
 
 ```bash
+#sudo apt install g++-arm-linux-gnueabihf # only needed for symbol-overlays, which currently don't compile
 git clone --recursive https://github.com/HackModsOrg/beepy-ppa-source
 cd beepy-ppa-source
 ./build.sh
