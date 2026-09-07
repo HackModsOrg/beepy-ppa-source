@@ -1,5 +1,7 @@
 # Package sources for Beepy/Blepis/Snowdive software
 
+**For Snowdive palmtop boards, use the `blepis-kbd` package**
+
 How to compile the entirety of this repository yourself:
 
 ```bash
