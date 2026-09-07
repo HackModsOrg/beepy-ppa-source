@@ -7,4 +7,5 @@ sed -i.save '/sharp-drm/d' /etc/modules
 sed -i.save '/dtoverlay=sharp-drm/d' /boot/config.txt
 
 # Remove device tree overlay
-rm -f /boot/overlays/sharp-drm.dtbo
+[ -e /boot/firmware/overlays/sharp-drm.dtbo ] && mv /boot/firmware/overlays/sharp-drm.dtbo /boot/firmware/overlays/sharp-drm_old.dtbo || true
+[ -e /boot/overlays/sharp-drm.dtbo ] && mv /boot/overlays/sharp-drm.dtbo /boot/overlays/sharp-drm_old.dtbo || true
